@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/C++/OSProject/Project1/main.cpp
+iostream
+-
+deque
+-
+algorithm
+-
+string
+-
+windows.h
+-
+
