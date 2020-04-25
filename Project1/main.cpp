@@ -11,7 +11,7 @@ void colour(int x)
     SetConsoleTextAttribute(h,x);
 }
 
-const int MaxPCBNum = 3;//进程数
+const int MaxPCBNum = 5;//进程数
 
 class PCB{
     string name;//进程名
@@ -33,6 +33,7 @@ public:
             return false;
         else
         {
+            //***运行
             time--;
             priority--;
             if (time==0) status = false;//更新状态
@@ -42,15 +43,14 @@ public:
     }
     bool Input()//输入PCB信息 返回是否成功创建
     {
-        colour(BLUE);
         string n;//name
         int t,p;//time priority
-        cout<<"Please enter the name of Process:\n";
+        colour(BLUE);cout<<"Please enter the name of Process:\n";
         cin >> n;
         name = n;
-        cout<<"Please enter the time:\n";
+        colour(BLUE);cout<<"Please enter the time:\n";
         cin >> t;
-        cout<<"Please enter the priority:\n";
+        colour(BLUE);cout<<"Please enter the priority:\n";
         cin>>p;
         if (t<0||p<0)//非法输入
         {
