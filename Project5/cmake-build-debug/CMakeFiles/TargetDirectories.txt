@@ -1,3 +1,0 @@
-E:/C++/OSProject/Project5/cmake-build-debug/CMakeFiles/Project5.dir
-E:/C++/OSProject/Project5/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/C++/OSProject/Project5/cmake-build-debug/CMakeFiles/rebuild_cache.dir
